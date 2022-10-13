@@ -1,0 +1,19 @@
+@font-face {
+  font-family: "NeueMachinaRegular";
+  src: local("NeueMachinaRegular"),
+    url('./fonts/Neue\ Machina\ Regular/.eot?#iefix') format('embedded-opentype'),
+    url('./fonts/Neue\ Machina\ Regular/.woff2') format('woff2'),
+    url('./fonts/Neue\ Machina\ Regular/.woff') format('woff');
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+	font-family: 'FormularLight';
+	src: local('FormularLight'),
+	     url('./fonts/Formular\ Light/.eot?#iefix') format('embedded-opentype'),
+	     url('./fonts/Formular\ Light/.woff2') format('woff2'),
+	     url('./fonts/Formular\ Light/.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
