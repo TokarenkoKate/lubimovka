@@ -1,0 +1,17 @@
+.external-resources__text {
+  max-width: 410px;
+  margin: 0;
+  font-family: 'FormularLight';
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 1.4;
+  letter-spacing: -0.01em;
+  color: var(--dark-color);
+}
+
+@media screen and (max-width: 768px) {
+  .external-resources__text {
+    grid-column: 2 / 3;
+    max-width: 510px;
+  }
+}

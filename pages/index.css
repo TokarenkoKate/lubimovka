@@ -19,3 +19,9 @@
 @import url(../blocks/project/__content/project__content.css);
 @import url(../blocks/project/__description/project__description.css);
 @import url(../blocks/project/__heading/project__heading.css);
+
+@import url(../blocks/external-resources/external-resources.css);
+@import url(../blocks/external-resources/__content/external-resources__content.css);
+@import url(../blocks/external-resources/__heading/external-resources__heading.css);
+@import url(../blocks/external-resources/__link/external-resources__link.css);
+@import url(../blocks/external-resources/__text/external-resources__text.css);
