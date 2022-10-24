@@ -25,3 +25,11 @@
 @import url(../blocks/external-resources/__heading/external-resources__heading.css);
 @import url(../blocks/external-resources/__link/external-resources__link.css);
 @import url(../blocks/external-resources/__text/external-resources__text.css);
+
+@import url(../blocks/cooperation/cooperation.css);
+@import url(../blocks/cooperation/__content/cooperation__content.css);
+@import url(../blocks/cooperation/__heading/cooperation__heading.css);
+@import url(../blocks/cooperation/__text/cooperation__text.css);
+@import url(../blocks/cooperation/__asterisk/cooperation__asterisk.css);
+@import url(../blocks/cooperation/__text-wrapper/cooperation__text-wrapper.css);
+@import url(../blocks/cooperation/__link/cooperation__link.css);
