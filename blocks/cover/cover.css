@@ -1,0 +1,39 @@
+.cover {
+  display: grid;
+  grid-template-areas: 'link . heading'
+                       '. subheading image';
+  grid-template-columns: min-content auto minmax(min-content, max-content);
+  grid-gap: 73px 30px;
+  max-width: 1440px;
+  padding: 32px 0 0 30px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 1024px) {
+  .cover {
+    grid-template-areas: 'link heading'
+                         'subheading image';
+    grid-template-columns: repeat(2, minmax(min-content, max-content));
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .cover {
+    grid-template-areas: 'logo link'
+                        'heading heading'
+                        '. subheading'
+                        'image image';
+    grid-template-columns: min-content auto;
+    grid-gap: 56px 19px;
+    padding: 32px 24px 0 24px;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .cover {
+    padding: 32px 0 0 0;
+    grid-gap: 24px 19px;
+  }
+}

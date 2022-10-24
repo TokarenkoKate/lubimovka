@@ -1,0 +1,26 @@
+.cover__link {
+  grid-area: link;
+  align-self: start;
+  justify-self: start;
+  width: 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3px 0 3px 10px;
+  box-sizing: border-box;
+  border-bottom: 1px solid var(--dark-color);
+  border-right: 1px solid var(--dark-color);
+  text-decoration: none;
+  text-transform: uppercase;
+  color: var(--dark-color);
+  font-family: 'FormularLight';
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 0.88;
+}
+
+@media screen and (max-width: 768px) {
+  .cover__link {
+    width: 115px;
+  }
+}

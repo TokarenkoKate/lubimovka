@@ -1,0 +1,13 @@
+.cover__image {
+  grid-area: image;
+  display: block;
+  object-fit: cover;
+  max-width: 720px;
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .cover__image {
+    aspect-ratio: 23/25;
+  }
+}

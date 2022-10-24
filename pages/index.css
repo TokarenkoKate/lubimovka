@@ -3,3 +3,14 @@
 
 @import url(../blocks/root/root.css);
 @import url(../blocks/page/page.css);
+
+@import url(../blocks/link-animation/link-animation.css);
+
+@import url(../blocks/cover/cover.css);
+@import url(../blocks/cover/__link/cover__link.css);
+@import url(../blocks/cover/__heading/cover__heading.css);
+@import url(../blocks/cover/__subheading/cover__subheading.css);
+@import url(../blocks/cover/__subheading/_additional/cover__subheading_additional.css);
+@import url(../blocks/cover/__image/cover__image.css);
+
+@import url(../blocks/logo/logo.css);

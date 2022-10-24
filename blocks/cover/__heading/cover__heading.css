@@ -1,0 +1,28 @@
+.cover__heading {
+  grid-area: heading;
+  max-width: 450px;
+  margin: 0;
+  padding-top: 18px;
+  font-family: 'NeueMachinaRegular';
+  font-size: 72px;
+  line-height: 0.97;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+  color: var(--dark-color);
+}
+
+@media screen and (max-width: 768px) {
+  .cover__heading {
+    max-width: 100%;
+    padding-top: 26px;
+    font-size: 56px;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .cover__heading {
+    padding-left: 24px;
+    padding-right: 24px;
+    font-size: 40px;
+  }
+}
