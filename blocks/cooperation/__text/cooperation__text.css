@@ -1,0 +1,9 @@
+.cooperation__text {
+  margin: 0;
+  font-family: 'NeueMachinaRegular';
+  font-size: 20px;
+  line-height: 1.2;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+  color: var(--dark-color);
+}

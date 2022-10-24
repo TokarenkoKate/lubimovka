@@ -1,0 +1,30 @@
+.cooperation__content {
+  max-width: 540px;
+  padding-left: 642px;
+  display: grid;
+  grid-template-areas: 'asterisk . .'
+                       '. heading heading'
+                       '. . text'
+}
+
+@media screen and (max-width:1440px) {
+  .cooperation__content {
+    padding-left: 46.1%;
+  }
+}
+
+@media screen and (max-width:1024px) {
+  .cooperation__content {
+    padding-left: 0;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width:768px) {
+  .cooperation__content {
+    grid-template-areas: 'asterisk .'
+                         '. heading'
+                         '. text';
+    gap: 0 6px;
+  }
+}

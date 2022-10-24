@@ -1,0 +1,20 @@
+.cooperation__link {
+  position: relative;
+  text-decoration: none;
+  color: var(--dark-color);
+  transition: opacity 0.2s linear;
+}
+
+.cooperation__link:hover {
+  opacity: 0.6;
+}
+
+.cooperation__link::after {
+  content: '';
+  position: absolute;
+  bottom: 2px;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: var(--dark-color);
+}

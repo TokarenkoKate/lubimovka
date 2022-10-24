@@ -1,0 +1,12 @@
+.cooperation {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 74px 24px 169px;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width:560px) {
+  .cooperation {
+    padding: 50px 24px 100px;
+  }
+}

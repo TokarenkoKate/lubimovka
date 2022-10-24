@@ -1,0 +1,18 @@
+.cooperation__heading {
+  grid-area: heading;
+  margin: 0;
+  font-family: 'NeueMachinaRegular';
+  font-size: 36px;
+  line-height: 1;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+  color: var(--dark-color);
+}
+
+@media screen and (max-width:560px) {
+  .cooperation__heading {
+    max-width: 270px;
+    font-size: 28px;
+    line-height: 1.14;
+  }
+}

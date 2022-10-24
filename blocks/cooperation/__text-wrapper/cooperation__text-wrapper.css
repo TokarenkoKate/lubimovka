@@ -1,0 +1,13 @@
+.cooperation__text-wrapper {
+  grid-area: text;
+  padding-top: 34px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+@media screen and (max-width: 560px) {
+  .cooperation__text-wrapper {
+    padding-top: 16px;
+  }
+}
