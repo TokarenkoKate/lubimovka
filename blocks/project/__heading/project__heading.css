@@ -1,0 +1,10 @@
+.project__heading {
+  grid-column: 2 span;
+  margin: 0;
+  font-family: 'NeueMachinaRegular';
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 1;
+  letter-spacing: -0.01em;
+  color: var(--dark-color);
+}
