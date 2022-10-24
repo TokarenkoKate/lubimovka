@@ -1,0 +1,25 @@
+.cover__subheading {
+  grid-area: subheading;
+  max-width: 420px;
+  margin: 0;
+  font-family: 'NeueMachinaRegular';
+  font-size: 28px;
+  line-height: 1.14;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+  color: var(--dark-color);
+}
+
+@media screen and (max-width: 768px) {
+  .cover__subheading {
+    padding-bottom: 15px;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .cover__subheading {
+    padding-right: 24px;
+    font-size: 20px;
+    line-height: 1.2;
+  }
+}
