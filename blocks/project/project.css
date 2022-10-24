@@ -1,0 +1,13 @@
+.project {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 76px 25px 120px;
+  box-sizing: border-box;
+  background-color: var(--accent-color);
+}
+
+@media screen and (max-width: 560px) {
+  .project {
+    padding: 51px 25px 72px;
+  }
+}

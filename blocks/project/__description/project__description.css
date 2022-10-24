@@ -1,0 +1,11 @@
+.project__description {
+  max-width: 510px;
+  grid-column: 2 / 3;
+  margin: 0;
+  font-family: 'FormularLight';
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 1.4;
+  letter-spacing: -0.01em;
+  color: var(--dark-color);
+}
