@@ -1,0 +1,18 @@
+.external-resources__heading {
+  grid-column: span 2;
+  max-width: 410px;
+  margin: 0;
+  font-family: 'NeueMachinaRegular';
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 1;
+  letter-spacing: -0.01em;
+  color: var(--dark-color);
+}
+
+@media screen and (max-width: 560px) {
+  .external-resources__heading {
+    font-size: 28px;
+    line-height: 1.14;
+  }
+}

@@ -1,0 +1,13 @@
+.external-resources {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 71px 24px 141px;
+  box-sizing: border-box;
+  background-color: var(--accent-color);
+}
+
+@media screen and (max-width: 560px) {
+  .external-resources {
+    padding: 56px 24px 72px;
+  }
+}

@@ -1,0 +1,17 @@
+.external-resources__content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+  max-width: 900px;
+  margin: 0 auto;
+  padding-left: 92px;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 768px) {
+  .external-resources__content {
+    padding-left: 0;
+    grid-template-columns: 62px 1fr;
+    gap: 17px 0;
+  }
+}

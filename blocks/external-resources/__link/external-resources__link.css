@@ -1,0 +1,28 @@
+.external-resources__link {
+  align-self: start;
+  justify-self: end;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 298px;
+  width: 100%;
+  margin-top: 10px;
+  padding: 16px 20px;
+  border: 1px solid var(--dark-color);
+  box-sizing: border-box;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'FormularLight';
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.38;
+  color: var(--dark-color);
+}
+
+@media screen and (max-width: 768px) {
+  .external-resources__link {
+    grid-column: 2 / 3;
+    justify-self: start;
+    margin-top: 0;
+  }
+}
