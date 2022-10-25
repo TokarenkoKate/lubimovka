@@ -33,3 +33,11 @@
 @import url(../blocks/cooperation/__asterisk/cooperation__asterisk.css);
 @import url(../blocks/cooperation/__text-wrapper/cooperation__text-wrapper.css);
 @import url(../blocks/cooperation/__link/cooperation__link.css);
+
+@import url(../blocks/video/video.css);
+@import url(../blocks/video/__heading/video__heading.css);
+@import url(../blocks/video/__link/video__link.css);
+@import url(../blocks/video/__content/video__content.css);
+@import url(../blocks/video/__preview/video__preview.css);
+@import url(../blocks/video/__button/video__button.css);
+@import url(../blocks/video/__text/video__text.css);
