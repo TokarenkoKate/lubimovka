@@ -1,0 +1,10 @@
+.people__slider-list__poste {
+  width: 210px;
+  height: 265px;
+}
+
+@media screen and (max-width: 414px) {
+  .people__slider-list__poste {
+    width: 213px;
+  }
+}

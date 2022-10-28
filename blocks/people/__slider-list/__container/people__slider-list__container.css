@@ -1,0 +1,10 @@
+.people__slider-list__container {
+  width: 210px;
+  height: 265px;
+}
+
+@media screen and (max-width: 414px) {
+  .plays__slider-list__container {
+    width: 213px;
+  }
+}
