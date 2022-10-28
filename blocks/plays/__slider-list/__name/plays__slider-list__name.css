@@ -1,0 +1,23 @@
+.plays__slider-list__name {
+  margin: 16px 0 4px;
+  max-width: 190px;
+  font-family: 'NeueMachinaRegular';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: -0.01em;
+  color: #242424;
+}
+
+@media screen and (max-width: 860px) {
+  .plays__slider-list__name {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 415px) {
+  .plays__slider-list__name {
+    margin: 24px 0 8px;
+  }
+}

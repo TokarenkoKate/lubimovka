@@ -1,0 +1,30 @@
+.plays__container {
+  max-width: 1440px;
+  margin: 0 auto 123px;
+}
+
+@media screen and (max-width: 1340px) {
+  .plays__container {
+    max-width: 1340px;
+    margin: 0 60px;
+  }
+}
+
+@media screen and (max-width: 1110px) {
+  .plays__container {
+    max-width: 1110px;
+  }
+}
+
+@media screen and (max-width: 860px) {
+  .plays__container {
+    max-width: 860px;
+  }
+}
+
+@media screen and (max-width: 415px) {
+  .plays__container {
+    max-width: 415px;
+    margin: 0 24px 100px 24px;
+  }
+}

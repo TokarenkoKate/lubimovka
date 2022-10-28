@@ -1,0 +1,13 @@
+.plays__slider-list__container {
+  display: flex;
+  background: #B7C09D;
+  height: 300px;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 414px) {
+  .plays__slider-list__container {
+    height: 341px;
+  }
+}

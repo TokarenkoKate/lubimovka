@@ -1,0 +1,39 @@
+.plays__slider-btn {
+  max-width: 100%;
+  border-top: 1px solid #242424;
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+  background-color: transparent;
+  padding: 15px 16px;
+  text-align: start;
+  font-family: 'FormularLight';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 22px;
+  color: #242424;
+  cursor: pointer;
+  transition: all 0.3s linear;
+  background-image: url('../../../images/Union.svg');
+  background-repeat: no-repeat;
+  background-position: calc(100% - 16px) 50%;
+}
+
+.plays__slider-btn:hover {
+  background-color: #aab392;
+}
+
+@media screen and (max-width: 940px) {
+  .plays__slider-btn {
+    padding: 15px 10px;
+    background-position-x: calc(100% - 10px);
+  }
+}
+
+@media screen and (max-width: 860px) {
+  .plays__slider-btn {
+    padding: 15px 16px;
+    background-position-x: calc(100% - 16px);
+  }
+}
