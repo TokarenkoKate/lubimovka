@@ -1,0 +1,4 @@
+.plays__slider-btns {
+  display: flex;
+  flex-direction: column;
+}

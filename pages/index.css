@@ -1,0 +1,22 @@
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts.css);
+
+@import url(../blocks/root/root.css);
+@import url(../blocks/page/page.css);
+
+/* plays */
+
+@import url(../blocks/plays/plays.css);
+@import url(../blocks/plays/__container/plays__container.css);
+@import url(../blocks/plays/__title/plays__title.css);
+@import url(../blocks/plays/__slider/plays__slider.css);
+@import url(../blocks/plays/__slider-lists/plays__slider-lists.css);
+@import url(../blocks/plays/__slider-list/plays__slider-list.css);
+@import url(../blocks/plays/__slider-list/__container/plays__slider-list__container.css);
+@import url(../blocks/plays/__slider-list/__title/plays__slider-list__title.css);
+@import url(../blocks/plays/__slider-list/__title/_width/plays__slider-list__title_width.css);
+@import url(../blocks/plays/__slider-list/__name/plays__slider-list__name.css);
+@import url(../blocks/plays/__slider-list/__city/plays__slider-list__city.css);
+@import url(../blocks/plays/__slider-btns/plays__slider-btns.css);
+@import url(../blocks/plays/__slider-btn/plays__slider-btn.css);
+@import url(../blocks/plays/__slider-btn/_rotate/plays__slider-btn_rotate.css);

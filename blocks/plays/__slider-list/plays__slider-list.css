@@ -1,0 +1,28 @@
+.plays__slider-list {
+  max-width: 100%;
+  width: 240px;
+}
+
+@media screen and (max-width: 1110px) {
+  .plays__slider-list {
+    width: calc(100% / 4);
+  }
+}
+
+@media screen and (max-width: 860px) {
+  .plays__slider-list {
+    width: calc(100% / 3);
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .plays__slider-list {
+    width: calc(100% / 2);
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .plays__slider-list {
+    width: 100%;
+  }
+}
