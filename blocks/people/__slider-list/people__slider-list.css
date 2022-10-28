@@ -1,0 +1,28 @@
+.people__slider-list {
+  max-width: 100%;
+  width: 210px;
+}
+
+@media screen and (max-width: 1110px) {
+  .people__slider-list {
+    max-width: calc(100% / 4);
+  }
+}
+
+@media screen and (max-width: 860px) {
+  .people__slider-list {
+    max-width: calc(100% / 3);
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .people__slider-list {
+    max-width: calc(100% / 2);
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .people__slider-list {
+    max-width: 100%;
+  }
+}

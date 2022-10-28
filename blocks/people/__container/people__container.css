@@ -1,0 +1,30 @@
+.people__container {
+  max-width: 930px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 850px) {
+  .people__container {
+    max-width: 850px;
+    margin: 0 60px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .people__container {
+    max-width: 700px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .people__container {
+    max-width: 600px;
+  }
+}
+
+@media screen and (max-width: 415px) {
+  .people__container {
+    max-width: 415px;
+    margin: 0 24px 100px 24px;
+  }
+}
